@@ -2,14 +2,13 @@
 
 /* Reset de marges i padding */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 /* Estils per a la navbar */
 nav {
-    background-color: #ff6363;
     padding: 15px;
 }
 
@@ -27,7 +26,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ff6363;
     font-weight: bold;
 }
 
@@ -52,8 +51,10 @@ nav ul li a:hover {
 
 /*FIXED BOTTOM*/
 .fixed-bottom{
-  padding: 25px;
-  color: #ff6363
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #ff6363;
+  background-color: #fac941;
 }
 
 .col {
@@ -61,15 +62,14 @@ nav ul li a:hover {
     min-width: 300px;
     margin: 10px;
     padding: 20px;
-    background-color: #f1f1f1;
     border-radius: 8px;
 }
 
 /* Estils per a títols i paràgrafs */
 h1, h2 {
-    color: #333;
+    color: #ff6363;
 }
 
 p {
-    color: #666;
+    color: #ff6363;
 }
